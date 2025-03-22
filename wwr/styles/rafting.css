@@ -56,9 +56,9 @@ p {
     top: 30%;
     left: 50%;
     transform: translate(-50%, 0%);
-    width: 1000px;
+    width: 80%;
     height: auto;
-    background: rgba(173, 232, 244, 0.1); 
+    background: rgba(173, 232, 244, 0.7); 
     padding: 20px;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 .hero article p{
-    color: #F1F1F1;
+    color: var(--primary-color);
 }
 
 .history{
