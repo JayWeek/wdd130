@@ -11,6 +11,10 @@
     --accent2-color: #caf0f8;
 }
 
+body {
+    background-color: #F5F5F5; /* Light gray for better contrast */
+}
+
 h1, h2, h3 {
     color: var(--primary-color); /* Dark blue for headings */
     font-family: 'Montserrat', sans-serif;
@@ -85,7 +89,7 @@ header{
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 1rem 2rem;
-    background-color:  #0077B6;
+    background-color:  var(--primary-color);
 }
 
 
@@ -116,9 +120,10 @@ header img{
     color:  #ADE8F4;
 }
 
+/* HISTORY */
 .history{
     margin: 20px 0px;
-    text-align: center; /* Center the h2 */
+    text-align: center; 
     padding: 2rem;
 }
 
@@ -135,6 +140,10 @@ header img{
     width: 100%; 
     max-width: 250px; /* Keeps image from getting too large */
     border-radius: 10px;
+}
+
+.history-content p{
+    color: #004A99;
 }
 
 
@@ -198,6 +207,7 @@ footer {
 footer p {
     flex: 1;
     text-align: center;
+    color: white;
 }
 
 .social-links {
